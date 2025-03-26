@@ -123,7 +123,7 @@ install_dokploy() {
       --update-order stop-first \
       --constraint 'node.role == manager' \
       -e ADVERTISE_ADDR=$advertise_addr \
-      dokploy/dokploy:latest
+      dokploy/dokploy:v0.17.2
 
     GREEN="\033[0;32m"
     YELLOW="\033[1;33m"
